@@ -1,0 +1,10 @@
+name: xarray_tutorial
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab=4.2.5
+  - matplotlib
+  - xarray=2024.10.0
+  - pooch=1.8.2
+  - scipy=1.14.1
+  - netcdf4=1.7.2 
