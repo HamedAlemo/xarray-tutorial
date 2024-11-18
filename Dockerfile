@@ -13,6 +13,7 @@ USER gisuser
 
 WORKDIR /home/gisuser
 COPY --chown=gisuser xarray_fundamentals.ipynb .
+COPY --chown=gisuser xarray_advanced.ipynb .
 
 # Expose the JupyterLab port
 EXPOSE 8888
