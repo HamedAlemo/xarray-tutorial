@@ -26,10 +26,10 @@ jupyter lab
 ## Instructions for DockerHub
 
 ```
-docker pull hamedalemo/xarray-tutorial:1.0
+docker pull hamedalemo/xarray-tutorial:1.1
 ```
 ```
-docker run -it -p 8888:8888 hamedalemo/xarray-tutorial:1.0
+docker run -it -p 8888:8888 hamedalemo/xarray-tutorial:1.1
 ```
 - Copy the Jupyter Lab url and paste it in your browser. 
 - Open `xarray_fundamentals.ipynb` and follow the instructions. 
