@@ -3,47 +3,15 @@ This repository contains an introduction to `xarray` for geospatial data process
 
 ## Requirements
 
-You can use conda to install the local environment and run the notebooks in this repository, or use Docker to pull an existing image from DockerHub, or build a Docker image locally. Follow one of the three instructions below based on your preference. 
+You need to use Pixi to install the local environment and run the notebooks in this repository.
 
 
-## Instructions for Local Conda Environment
+## Instructions
 
 ```
-conda env create -f environment.yml
+pixi run jupyter lab
 ```
-```
-conda activate xarray_tutorial
-```
-```
-jupyter lab
-```
-- Copy the Jupyter Lab url and paste it in your browser. 
-- Open `xarray_fundamentals.ipynb` and follow the instructions. 
-- Open `xarray_advanced.ipynb` and follow the instructions. 
 
-
-
-## Instructions for DockerHub
-
-```
-docker pull hamedalemo/xarray-tutorial:1.1
-```
-```
-docker run -it -p 8888:8888 hamedalemo/xarray-tutorial:1.1
-```
-- Copy the Jupyter Lab url and paste it in your browser. 
-- Open `xarray_fundamentals.ipynb` and follow the instructions. 
-- Open `xarray_advanced.ipynb` and follow the instructions. 
-
-
-## Instruction to Build Your Docker Local Image
-
-```
-docker build -t xarray-tutorial .
-```
-```
-docker run -it -p 8888:8888 xarray-tutorial
-```
-- Copy the Jupyter Lab url and paste it in your browser. 
+- If Jupyter Lab doesn't open automatically, copy the Jupyter Lab url and paste it in your browser. 
 - Open `xarray_fundamentals.ipynb` and follow the instructions. 
 - Open `xarray_advanced.ipynb` and follow the instructions. 
