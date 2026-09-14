@@ -13,5 +13,5 @@ pixi run jupyter lab
 ```
 
 - If Jupyter Lab doesn't open automatically, copy the Jupyter Lab url and paste it in your browser. 
-- Open `xarray_fundamentals.ipynb` and follow the instructions. 
-- Open `xarray_advanced.ipynb` and follow the instructions. 
+- Open `notebooks/xarray_fundamentals.ipynb` and follow the instructions. 
+- Open `notebooks/xarray_advanced.ipynb` and follow the instructions. 
